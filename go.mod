@@ -35,7 +35,6 @@ require (
 	github.com/spf13/viper v1.15.0
 	github.com/spiffe/go-spiffe/v2 v2.1.2
 	github.com/stretchr/testify v1.8.2
-	github.com/theupdateframework/go-tuf v0.5.2
 	github.com/transparency-dev/merkle v0.0.1
 	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1
 	github.com/xanzy/go-gitlab v0.80.3
@@ -55,8 +54,8 @@ require (
 require (
 	cloud.google.com/go/compute v1.18.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v0.11.0 // indirect
-	cloud.google.com/go/kms v1.8.0 // indirect
+	cloud.google.com/go/iam v0.12.0 // indirect
+	cloud.google.com/go/kms v1.9.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/alibabacloudsdkgo/helper v0.2.0 // indirect
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible // indirect
@@ -85,7 +84,7 @@ require (
 	github.com/alibabacloud-go/tea-xml v1.1.2 // indirect
 	github.com/aliyun/credentials-go v1.2.3 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
-	github.com/aws/aws-sdk-go v1.44.210 // indirect
+	github.com/aws/aws-sdk-go v1.44.216 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.17.5 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.18.15 // indirect
 	github.com/aws/aws-sdk-go-v2/credentials v1.13.15 // indirect
@@ -96,7 +95,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.15.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.12.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.23 // indirect
-	github.com/aws/aws-sdk-go-v2/service/kms v1.20.5 // indirect
+	github.com/aws/aws-sdk-go-v2/service/kms v1.20.6 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.12.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.14.4 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.18.5 // indirect
@@ -210,6 +209,7 @@ require (
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
 	github.com/tent/canonical-json-go v0.0.0-20130607151641-96e4ba3a7613 // indirect
 	github.com/thales-e-security/pool v0.0.2 // indirect
+	github.com/theupdateframework/go-tuf v0.5.2 // indirect
 	github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399 // indirect
 	github.com/tjfoc/gmsm v1.3.2 // indirect
 	github.com/urfave/negroni v1.0.0 // indirect
@@ -235,7 +235,7 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230223222841-637eb2293923 // indirect
 	google.golang.org/grpc v1.53.0 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
+	google.golang.org/protobuf v1.29.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
@@ -247,3 +247,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+replace github.com/sigstore/sigstore => github.com/rdimitrov/sigstore v0.0.0-20230309143509-0b5bcd0d6181

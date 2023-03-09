@@ -32,10 +32,10 @@ cloud.google.com/go/compute/metadata v0.2.3/go.mod h1:VAV5nSsACxMJvgaAuX6Pk2Aawl
 cloud.google.com/go/datastore v1.0.0/go.mod h1:LXYbyblFSglQ5pkeyhO+Qmw7ukd3C+pD7TKLgZqpHYE=
 cloud.google.com/go/datastore v1.1.0/go.mod h1:umbIZjpQpHh4hmRpGhH4tLFup+FVzqBi1b3c64qFpCk=
 cloud.google.com/go/firestore v1.1.0/go.mod h1:ulACoGHTpvq5r8rxGJ4ddJZBZqakUQqClKRT5SZwBmk=
-cloud.google.com/go/iam v0.11.0 h1:kwCWfKwB6ePZoZnGLwrd3B6Ru/agoHANTUBWpVNIdnM=
-cloud.google.com/go/iam v0.11.0/go.mod h1:9PiLDanza5D+oWFZiH1uG+RnRCfEGKoyl6yo4cgWZGY=
-cloud.google.com/go/kms v1.8.0 h1:VrJLOsMRzW7IqTTYn+OYupqF3iKSE060Nrn+PECrYjg=
-cloud.google.com/go/kms v1.8.0/go.mod h1:4xFEhYFqvW+4VMELtZyxomGSYtSQKzM178ylFW4jMAg=
+cloud.google.com/go/iam v0.12.0 h1:DRtTY29b75ciH6Ov1PHb4/iat2CLCvrOm40Q0a6DFpE=
+cloud.google.com/go/iam v0.12.0/go.mod h1:knyHGviacl11zrtZUoDuYpDgLjvr28sLQaG0YB2GYAY=
+cloud.google.com/go/kms v1.9.0 h1:b0votJQa/9DSsxgHwN33/tTLA7ZHVzfWhDCrfiXijSo=
+cloud.google.com/go/kms v1.9.0/go.mod h1:qb1tPTgfF9RQP8e1wq4cLFErVuTJv7UsSC915J8dh3w=
 cloud.google.com/go/longrunning v0.3.0 h1:NjljC+FYPV3uh5/OwWT6pVU+doBqMg2x/rZlE+CamDs=
 cloud.google.com/go/pubsub v1.0.1/go.mod h1:R0Gpsv3s54REJCy4fxDixWD93lHJMoZTyQ2kNxGRt3I=
 cloud.google.com/go/pubsub v1.1.0/go.mod h1:EwwdRX2sKPjnvnqCa270oGRyludottCI76h+R3AArQw=
@@ -151,8 +151,8 @@ github.com/armon/go-radix v0.0.0-20180808171621-7fddfc383310/go.mod h1:ufUuZ+zHj
 github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef/go.mod h1:WaHUgvxTVq04UNunO+XhnAqY/wQc+bxr74GqbsZ/Jqw=
 github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d h1:Byv0BzEl3/e6D5CLfI0j/7hiIEtvGVFPCZ7Ei2oq8iQ=
 github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d/go.mod h1:WaHUgvxTVq04UNunO+XhnAqY/wQc+bxr74GqbsZ/Jqw=
-github.com/aws/aws-sdk-go v1.44.210 h1:/cqRMHSSgzLEKILIDGwhaX2hiIpyRurw7MRy6aaSufg=
-github.com/aws/aws-sdk-go v1.44.210/go.mod h1:aVsgQcEevwlmQ7qHE9I3h+dtQgpqhFB+i8Phjh7fkwI=
+github.com/aws/aws-sdk-go v1.44.216 h1:nDL5hEGBlUNHXMWbpP4dIyP8IB5tvRgksWE7biVu8JY=
+github.com/aws/aws-sdk-go v1.44.216/go.mod h1:aVsgQcEevwlmQ7qHE9I3h+dtQgpqhFB+i8Phjh7fkwI=
 github.com/aws/aws-sdk-go-v2 v1.7.1/go.mod h1:L5LuPC1ZgDr2xQS7AmIec/Jlc7O/Y1u2KxJyNVab250=
 github.com/aws/aws-sdk-go-v2 v1.14.0/go.mod h1:ZA3Y8V0LrlWj63MQAnRHgKf/5QB//LSZCPNWlWrNGLU=
 github.com/aws/aws-sdk-go-v2 v1.17.5 h1:TzCUW1Nq4H8Xscph5M/skINUitxM5UBAyvm2s7XBzL4=
@@ -184,8 +184,8 @@ github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.12.0/go.mod h1:IArQ3IBR00Fkura
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.2.1/go.mod h1:zceowr5Z1Nh2WVP8bf/3ikB41IZW59E4yIYbg+pC6mw=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.23 h1:QoOybhwRfciWUBbZ0gp9S7XaDnCuSTeK/fySB99V1ls=
 github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.23/go.mod h1:9uPh+Hrz2Vn6oMnQYiUi/zbh3ovbnQk19YKINkQny44=
-github.com/aws/aws-sdk-go-v2/service/kms v1.20.5 h1:HKBjhFr7yVOYWTBmYmIHSHyLwmybF0ly7sPCBn/OiJk=
-github.com/aws/aws-sdk-go-v2/service/kms v1.20.5/go.mod h1:oTK4GAHgyFSGKzhReYfD19/vjtgUOPwCbm7v5MgWLW4=
+github.com/aws/aws-sdk-go-v2/service/kms v1.20.6 h1:gnCeEJCh+3+RWiloIyXJ5AhakBKckP2uiRVa3G4J1ug=
+github.com/aws/aws-sdk-go-v2/service/kms v1.20.6/go.mod h1:oTK4GAHgyFSGKzhReYfD19/vjtgUOPwCbm7v5MgWLW4=
 github.com/aws/aws-sdk-go-v2/service/sso v1.3.1/go.mod h1:J3A3RGUvuCZjvSuZEcOpHDnzZP/sKbhDWV2T1EOzFIM=
 github.com/aws/aws-sdk-go-v2/service/sso v1.12.4 h1:qJdM48OOLl1FBSzI7ZrA1ZfLwOyCYqkXV5lko1hYDBw=
 github.com/aws/aws-sdk-go-v2/service/sso v1.12.4/go.mod h1:jtLIhd+V+lft6ktxpItycqHqiVXrPIRjWIsFIlzMriw=
@@ -748,6 +748,8 @@ github.com/protocolbuffers/txtpbfmt v0.0.0-20201118171849-f6a6b3f636fc/go.mod h1
 github.com/qur/ar v0.0.0-20130629153254-282534b91770/go.mod h1:SjlYv2m9lpV0UW6K7lDqVJwEIIvSjaHbGk7nIfY8Hxw=
 github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 h1:N/ElC8H3+5XpJzTSTfLsJV/mx9Q9g7kxmchpfZyxgzM=
 github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475/go.mod h1:bCqnVzQkZxMG4s8nGwiZ5l3QUCyqpo9Y+/ZMZ9VjZe4=
+github.com/rdimitrov/sigstore v0.0.0-20230309143509-0b5bcd0d6181 h1:zKpUU2hbeK24IBev3Tr7z5NO3eVB/iF0sjWYUUsN4rU=
+github.com/rdimitrov/sigstore v0.0.0-20230309143509-0b5bcd0d6181/go.mod h1:rPsxAqay4rJFsCo115MaaUBh/PKxb8Q9P6VL6QMJbyQ=
 github.com/rogpeppe/fastuuid v0.0.0-20150106093220-6724a57986af/go.mod h1:XWv6SoW27p1b0cqNHllgS5HIMJraePCO15w5zCzIWYg=
 github.com/rogpeppe/go-internal v1.1.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
 github.com/rogpeppe/go-internal v1.2.2/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
@@ -780,8 +782,6 @@ github.com/sigstore/fulcio v1.1.0 h1:mzzJ05Ccu8Y2inyioklNvc8MpzlGHxu8YqNeTm0dHfU
 github.com/sigstore/fulcio v1.1.0/go.mod h1:zv1ZQTXZbUwQdRwajlQksc34pRas+2aZYpIZoQBNev8=
 github.com/sigstore/rekor v1.0.1 h1:rcESXSNkAPRWFYZel9rarspdvneET60F2ngNkadi89c=
 github.com/sigstore/rekor v1.0.1/go.mod h1:ecTKdZWGWqE1pl3U1m1JebQJLU/hSjD9vYHOmHQ7w4g=
-github.com/sigstore/sigstore v1.6.0 h1:0fYHVoUlPU3WM8o3U1jT9SI2lqQE68XbG+qWncXaZC8=
-github.com/sigstore/sigstore v1.6.0/go.mod h1:+55pf6HZ15kf60c08W+GH95JQbAcnVyUBquQGSVdsto=
 github.com/sigstore/timestamp-authority v0.2.1 h1:uqyamGxSXMEDt+e4t5XhR8JdJMeNBEj9V2Pol9BhuqY=
 github.com/sigstore/timestamp-authority v0.2.1/go.mod h1:i6zDth6bXY/ZaMzT5Hjd3ZuKtX85TW8fNoNWn8TxAc0=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
@@ -1334,8 +1334,8 @@ google.golang.org/protobuf v1.25.0/go.mod h1:9JNX74DMeImyA3h4bdi1ymwjUzf21/xIlba
 google.golang.org/protobuf v1.26.0-rc.1/go.mod h1:jlhhOSvTdKEhbULTjvd4ARK9grFBp09yW+WbY/TyQbw=
 google.golang.org/protobuf v1.26.0/go.mod h1:9q0QmTI4eRPtz6boOQmLYwt+qCgq0jsYwAQnmE0givc=
 google.golang.org/protobuf v1.28.0/go.mod h1:HV8QOd/L58Z+nl8r43ehVNZIU/HEI6OcFqwMG9pJV4I=
-google.golang.org/protobuf v1.28.1 h1:d0NfwRgPtno5B1Wa6L2DAG+KivqkdutMf1UhdNx175w=
-google.golang.org/protobuf v1.28.1/go.mod h1:HV8QOd/L58Z+nl8r43ehVNZIU/HEI6OcFqwMG9pJV4I=
+google.golang.org/protobuf v1.29.0 h1:44S3JjaKmLEE4YIkjzexaP+NzZsudE3Zin5Njn/pYX0=
+google.golang.org/protobuf v1.29.0/go.mod h1:HV8QOd/L58Z+nl8r43ehVNZIU/HEI6OcFqwMG9pJV4I=
 gopkg.in/alecthomas/kingpin.v2 v2.2.6/go.mod h1:FMv+mEhP44yOT+4EoQTLFTRgOQ1FBLkstjWtayDeSgw=
 gopkg.in/alexcesaro/statsd.v2 v2.0.0 h1:FXkZSCZIH17vLCO5sO2UucTHsH9pc+17F6pl3JVCwMc=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
