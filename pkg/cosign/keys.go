@@ -30,8 +30,6 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/theupdateframework/go-tuf/encrypted"
-
 	"github.com/sigstore/cosign/v2/pkg/oci/static"
 	"github.com/sigstore/sigstore/pkg/cryptoutils"
 	"github.com/sigstore/sigstore/pkg/signature"
@@ -152,7 +150,7 @@ func marshalKeyPair(ptype string, keypair Keys, pf PassFunc) (key *KeysBytes, er
 		}
 	}
 
-	encBytes, err := encrypted.Encrypt(x509Encoded, password)
+	encBytes, err := cryptoutils.Encrypt(x509Encoded, password)
 	if err != nil {
 		return nil, err
 	}
@@ -216,7 +214,7 @@ func LoadPrivateKey(key []byte, pass []byte) (signature.SignerVerifier, error) {
 		return nil, fmt.Errorf("unsupported pem type: %s", p.Type)
 	}
 
-	x509Encoded, err := encrypted.Decrypt(p.Bytes, pass)
+	x509Encoded, err := cryptoutils.Decrypt(p.Bytes, pass)
 	if err != nil {
 		return nil, fmt.Errorf("decrypt: %w", err)
 	}

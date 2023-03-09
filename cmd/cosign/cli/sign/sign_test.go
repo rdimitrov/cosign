@@ -34,7 +34,6 @@ import (
 	"github.com/sigstore/cosign/v2/pkg/cosign"
 	"github.com/sigstore/cosign/v2/test"
 	"github.com/sigstore/sigstore/pkg/cryptoutils"
-	"github.com/theupdateframework/go-tuf/encrypted"
 )
 
 func pass(s string) cosign.PassFunc {
@@ -65,7 +64,7 @@ func generateCertificateFiles(t *testing.T, tmpDir string, pf cosign.PassFunc) (
 		}
 	}
 
-	encBytes, err := encrypted.Encrypt(x509Encoded, password)
+	encBytes, err := cryptoutils.Encrypt(x509Encoded, password)
 	if err != nil {
 		t.Fatalf("failed to encrypt key: %v", err)
 	}

@@ -35,9 +35,9 @@ import (
 	"github.com/sigstore/cosign/v2/cmd/cosign/cli/options"
 	"github.com/sigstore/cosign/v2/pkg/cosign"
 	"github.com/sigstore/cosign/v2/test"
+	"github.com/sigstore/sigstore/pkg/cryptoutils"
 	"github.com/sigstore/sigstore/pkg/signature"
 	"github.com/sigstore/sigstore/pkg/signature/dsse"
-	"github.com/theupdateframework/go-tuf/encrypted"
 )
 
 // TestAttestBlobCmdLocalKeyAndSk verifies the AttestBlobCmd returns an error
@@ -90,7 +90,7 @@ func TestAttestBlobCmdLocalKeyAndCert(t *testing.T) {
 	otherRootPem := writeFile(t, td, string(pemOtherRoot), "other_root_cert.pem")
 
 	x509Encoded, _ := x509.MarshalPKCS8PrivateKey(privKey)
-	encBytes, _ := encrypted.Encrypt(x509Encoded, nil)
+	encBytes, _ := cryptoutils.Encrypt(x509Encoded, nil)
 	keyPem := pem.EncodeToMemory(&pem.Block{
 		Type:  cosign.CosignPrivateKeyPemType,
 		Bytes: encBytes})
